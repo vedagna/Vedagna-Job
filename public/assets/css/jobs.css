@@ -1,0 +1,116 @@
+
+  /* Reset and basic styling */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container styling */
+  body {
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  form {
+    max-width: 400px;
+    margin: 0 auto 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  form label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Job listings styling */
+  .job-listings {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  li h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  li p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Job listing link as a button */
+  li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #218838;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  li a:hover {
+    background-color: #218838;
+  }
+  
+  
+  
+  
+  /* No job listings found styling */
+  p.no-jobs {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+  }
+  
